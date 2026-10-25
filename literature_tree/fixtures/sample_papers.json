@@ -1,0 +1,33 @@
+{
+  "query": "attention is all you need",
+  "papers": [
+    {
+      "paper_id": "vaswani2017",
+      "title": "Attention Is All You Need",
+      "year": "2017",
+      "abstract": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+      "related": ["bahdanau2015", "devlin2019"]
+    },
+    {
+      "paper_id": "bahdanau2015",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "year": "2015",
+      "abstract": "We introduce an attention mechanism that allows the model to search for parts of a source sentence that are relevant to predicting a target word.",
+      "related": ["vaswani2017"]
+    },
+    {
+      "paper_id": "devlin2019",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "year": "2019",
+      "abstract": "BERT uses a bidirectional Transformer encoder and is pre-trained with masked language modeling.",
+      "related": ["vaswani2017", "brown2020"]
+    },
+    {
+      "paper_id": "brown2020",
+      "title": "Language Models are Few-Shot Learners",
+      "year": "2020",
+      "abstract": "GPT-3 scales autoregressive language models and evaluates few-shot learning without task-specific fine-tuning.",
+      "related": ["devlin2019"]
+    }
+  ]
+}
